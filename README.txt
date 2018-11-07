@@ -1,4 +1,3 @@
-CS446, Weixiang Deng, 20534709
 
 Snake Game:
   I develop this game in OS X with the JDK version 1.8. The main 

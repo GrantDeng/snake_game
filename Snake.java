@@ -53,7 +53,7 @@ public class Snake implements ActionListener , KeyListener{
         start();
 
         Dimension d = Toolkit.getDefaultToolkit().getScreenSize();
-        sframe = new JFrame("Snake Game NAME:Weixiang Deng ID#: 20534709");
+        sframe = new JFrame("Snake Game");
         sframe.setVisible(true);
         sframe.setSize(800,600);
         sframe.addKeyListener(this);
