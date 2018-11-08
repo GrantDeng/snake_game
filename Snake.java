@@ -24,10 +24,10 @@ public class Snake implements ActionListener , KeyListener{
     // range for one point
     public int range = 20;
     // direction
-    public int up = 1;
-    public int down = 2;
-    public int left = 3;
-    public int right = 4;
+    public static final int up = 1;
+    public static final int down = 2;
+    public static final int left = 3;
+    public static final int right = 4;
     // for key code
     public int key;
     // for game

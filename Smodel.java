@@ -15,8 +15,6 @@ public class Smodel extends JPanel {
         Snake s = Snake.snake;
         super.paintComponent(g);
         g.setColor(Color.white);
-
-
         //cur++;
 
         if (s.reverse == 1){
@@ -66,7 +64,6 @@ public class Smodel extends JPanel {
             g.fillRect(s.s_head.x * s.range + 3, s.s_head.y * s.range + 13, 4, 4);
             g.fillRect(s.s_head.x * s.range + 13, s.s_head.y * s.range + 13, 4, 4);
         }
-
 
         g.setColor(Color.blue);
         g.fillRect(s.apple.x * s.range, s.apple.y * s.range, s.range, s.range);
